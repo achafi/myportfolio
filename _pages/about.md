@@ -2,7 +2,7 @@
 title : "About"
 permalink : /about/
 header : 
-  image : "./assets/images/about_images.jpeg"
+  image : "./assets/images/about_image.jpeg"
 
 ---
 I am blabalala 
