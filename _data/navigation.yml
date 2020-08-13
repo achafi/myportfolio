@@ -3,6 +3,8 @@ main:
 
   - title: "About"
     url:  https://achafi.github.io/myportfolio/about/
+  - title : "Machine Learning"
+    url : https://achafi.github.io/myportfolio/machine-learning/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
