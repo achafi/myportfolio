@@ -1,11 +1,8 @@
 ---
 layout : archive
-permalink : /machine-learning/
-title : "My machine learning projects"
+permalink : /web-development/
+title : "My Web development projects"
 header :
    image : "./assets/images/view.jpeg"
 ---
-
-
-
 

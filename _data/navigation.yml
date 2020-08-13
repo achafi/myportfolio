@@ -5,6 +5,8 @@ main:
     url:  https://achafi.github.io/myportfolio/about/
   - title : "Machine Learning"
     url : https://achafi.github.io/myportfolio/machine-learning/
+  - title : "Web development"
+    url : https://achafi.github.io/myportfolio/web-development/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
