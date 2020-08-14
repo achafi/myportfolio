@@ -1,7 +1,7 @@
 ---
-layout : posts
+layout : collection
 permalink : /machine-learning/
-title : "My machine learning projects by Year"
+title : "My machine learning projects"
 author_profile : true
 header :
    image : "./assets/images/view.jpeg"
