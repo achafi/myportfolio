@@ -8,10 +8,6 @@ header :
 
 ---
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.permalink }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+
+{% include base_path %}
+{% include group-by-array collection=site.posts field="tags" %}
