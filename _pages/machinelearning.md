@@ -11,7 +11,6 @@ header :
 
 
 
-{% include group-by-array collection=site.posts field="tags" %}
 {% for post in posts %}
     {% include archive-single.html %}
 {% endfor %}
