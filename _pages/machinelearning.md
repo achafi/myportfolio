@@ -7,7 +7,11 @@ header :
    image : "./assets/images/view.jpeg"
 
 ---
+<!-- start index.html body -->
 
-{% for post in posts %}
+
+
+{% include group-by-array collection=site.posts field="tags" %}
+{% for post in site.posts %}
     {% include archive-single.html %}
 {% endfor %}
