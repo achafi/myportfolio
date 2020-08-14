@@ -7,8 +7,7 @@ main:
     url : /machine-learning/
   - title : "Web development"
     url : /web-development/
-  - title: "Sitemap"
-    url: /sitemap/
+
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
