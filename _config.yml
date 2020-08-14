@@ -274,7 +274,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/myportfolio/"
       type: posts
     values:
       layout: single
