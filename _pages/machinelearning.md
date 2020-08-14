@@ -7,9 +7,6 @@ header :
    image : "./assets/images/view.jpeg"
 
 ---
-<!-- start index.html body -->
-
-
 
 {% for post in posts %}
     {% include archive-single.html %}
