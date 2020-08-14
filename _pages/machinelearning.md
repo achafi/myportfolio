@@ -7,8 +7,6 @@ header :
    image : "./assets/images/view.jpeg"
 
 ---
-<!-- start index.html body -->
-
 
 
 {% include group-by-array collection=site.posts field="tags" %}
