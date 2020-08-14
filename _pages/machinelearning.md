@@ -1,5 +1,5 @@
 ---
-layout : categories
+layout : single
 permalink : /machine-learning/
 title : "My machine learning projects"
 author_profile : true
