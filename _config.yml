@@ -16,11 +16,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My portfolio"
+title                    : "My portfolio of data science projects completed by me for academic, self learning, and hobby purposes"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Assia CHAFI"
-description              : "Data Science Portfolio"
+description              : "Welcome to the internet home of Assia CHAFI. Data Scientist and Software Engineer.
+Feel free to look around, check out my portfolio, or get in touch.
+"
 url                      : "https://achafi.github.io/myportfolio"
 baseurl                  : #
 repository               : achafi/myportfolio # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
