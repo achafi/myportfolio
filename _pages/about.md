@@ -8,15 +8,15 @@ header :
 # My portfolio. 
 *A selection of cool stuff I've worked on. All the projects are completed by me for academic, self learning, and hobby purposes.*
 
-Hi, there! I’m Assia. **Software Engineer :computer: with expertise in Data science technologies**.
+Hi, there! I’m Assia. &#128187; **Software Engineer with expertise in Data science technologies**.
 
-**Master of Information technology**, double engineering school graduated from  &#127891; <span style="color:red">The Institut National des Sciences Appliquées de Rouen-France </span>, and <span style="color:blue">Ecole Nationale Supérieure des Mines de Rabat-Morocco.<span>
+**Master of Information technology**, double graduated from &#127891; <span style="color:red">The Institut National des Sciences Appliquées (INSA) de Rouen-France </span>, and <span style="color:blue"> Ecole Nationale Supérieure des Mines (ENSMR) de Rabat-Morocco.<span>
 
-I am passionate about using data :heart_eyes: 
-:books: **to understand cause and effect**...
-:chart_with_upwards_trend: **to extract insight for better decision**
-:robot: **to help machine learn**
-and :earth_africa: **to make world a better place**
+I am passionate about using data </br>
+&#x1f4da; **to understand cause and effect**...</br>
+&#128202; **to extract insight for better decision**</br>
+&#x1f916; **to help machine learn** </br>
+and &#x1f30e; **to make world a better place** </br>
 
 
 END to END ML project 
