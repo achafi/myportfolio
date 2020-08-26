@@ -10,7 +10,7 @@ header :
 
 Hi, there! I’m Assia. **Software Engineer :computer: with expertise in Data science technologies**.
 
-**Master of Information technology**, double engineering school graduated from :mortar_board: <span style="color:red">The Institut National des Sciences Appliquées de Rouen - France </span>. and :mortar_board:<span style="color:blue">Ecole Nationale Supérieure des Mines de Rabat - Morocco.<span>
+**Master of Information technology**, double engineering school graduated from  &#127891; <span style="color:red">The Institut National des Sciences Appliquées de Rouen-France </span>, and <span style="color:blue">Ecole Nationale Supérieure des Mines de Rabat-Morocco.<span>
 
 I am passionate about using data :heart_eyes: 
 :books: **to understand cause and effect**...
