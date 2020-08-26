@@ -8,19 +8,16 @@ header :
 # My portfolio. 
 *A selection of cool stuff I've worked on. All the projects are completed by me for academic, self learning, and hobby purposes.*
 
-Hi, there! I’m Assia.
+Hi, there! I’m Assia. **Software Engineer :computer: with expertise in Data science technologies**.
 
-**Master of Information technology**, double engineering school graduate from  <span style="color:blue">The Institut National des Sciences Appliquées de Rouen - France </span>. and Ecole Nationale Supérieure des Mines de Rabat - Morocco.
+**Master of Information technology**, double engineering school graduated from :mortar_board: <span style="color:red">The Institut National des Sciences Appliquées de Rouen - France </span>. and :mortar_board:<span style="color:blue">Ecole Nationale Supérieure des Mines de Rabat - Morocco.<span>
 
-**Software Engineer with expertise in Data science technologies**.
+I am passionate about using data :heart_eyes: 
+:books: **to understand cause and effect**...
+:chart_with_upwards_trend: **to extract insight for better decision**
+:robot: **to help machine learn**
+and :earth_africa: **to make world a better place**
 
-I am passionate about using data to understand cause and effect
-To extract deciding making  insight
-To help machine learn
-To make world a better place
-
-
-Enthusiastic double engineering school graduate, with one year of apprenticeship as Python backend developer within the French startup “Saagie” and six months of internship as Data analyst for the insurance group : “La Matmut”. A proactive and fast learning individual seeking an opportunity to work in the predictive modeling ﬁeld, including analytical and methodical skills to achieve business goals. 
 
 END to END ML project 
 Road map
