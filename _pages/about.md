@@ -5,13 +5,14 @@ header :
   image : "./assets/images/view.jpeg"
 ---
 
-# My portfolio : *A selection of cool stuff I've worked on. All the projects are completed by me for academic, self learning, and hobby purposes. *
+# My portfolio. 
+*A selection of cool stuff I've worked on. All the projects are completed by me for academic, self learning, and hobby purposes.*
 
 Hi, there! I’m Assia.
 
-Master of Information technology graduate from ……
+**Master of Information technology**, double engineering school graduate from  <span style="color:blue">The Institut National des Sciences Appliquées de Rouen - France </span>. and Ecole Nationale Supérieure des Mines de Rabat - Morocco.
 
-Software Engineer with expertise in Data science technologies.
+**Software Engineer with expertise in Data science technologies**.
 
 I am passionate about using data to understand cause and effect
 To extract deciding making  insight
@@ -23,8 +24,6 @@ Enthusiastic double engineering school graduate, with one year of apprenticeship
 
 END to END ML project 
 Road map
-
-
 
 
 OBJET : recommandation
