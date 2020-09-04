@@ -3,7 +3,7 @@ title : "Face mask detection alert system"
 date : 2020-08-13
 tags : [machine learning, computer vision, CNN, python, keras, opencv]
 header :
-  image : "./assets/images/facemaskdetection/facemaskdetection.jpg"
+  image : "./assets/images/facemaskdetection/Business-parks-and-offices.jpg"
 excerpt : "Machine learning , computer vision, Covid19"
 mathjax : true
 ---
@@ -22,8 +22,13 @@ Using Face Mask Detection System, Hospitals can monitor if their staff is wearin
 ##### Offices
 The Face Mask Detection System can be used at office premises to detect if employees are maintaining safety standards at work. It monitors employees without masks and sends them a reminder to wear a mask. The reports can be downloaded or sent an email at the end of the day to capture people who are not complying with the regulations or the requirements.
 
-## Body
-## ---
+## The flow and main phases of the entire system
+
+1- Person appears at entrance, wearing mask or not wearing mask
+2- Camera detects the mask on the Person's face
+3- Person denied Access until he/she wears Mask
+4- Authorities are alerted via Email in real time
+
 In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps :
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/face_mask_detection_phases.png" alt="">
@@ -37,8 +42,36 @@ In order to train a custom face mask detector, we need to break our project into
 
 ## Data Set and Processing
 
+Our [data](https://github.com/achafi/FaceMaskDectionAlertSystem/tree/master/Dataset) consisted of **917 images**:
+  -  with_mask  : **451 images** face images
+  - without_mask : 466 without masks.
+The mask are artificially added to the images in order to have a dataset images where a person is wearing a mask and not.
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/withandwhithoutmask.jpeg" alt="">
 *Fig. 2: Dataset seperated into two files : images of faces with mask and images of faces without mask*
+
+We first convert images to Grayscale and separate out labels and images using the OpenCV packages for Python: cv2
+```python
+# Converting the image into gray scale
+  grayscale_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+# resizing the gray scaled image into size 56*56 in order to keep size of the images consistent
+  resized_img = cv2.resize(grayscale_img, (img_rows, img_cols))
+```
+Then we perform one hot encoding on the labels since the label are in textual form, for that we use scikit learn preprocessing module.
+
+```python
+# one hot encoding
+lb = LabelBinarizer()
+labels = lb.fit_transform(labels)
+labels = to_categorical(labels)
+labels = np.array(labels)
+```
+## Build Convolutional neural network
+After preprocessing the images, it is time to build a Convolutional Neural Network using Sequential API of Keras.This model aims to classify whether an image is of face with mask or without mask
+
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/cnn_model.png" alt="">
+*Fig. 3: architecture of our CNN model *
+As shown above in figure 3, the first layer group contains Convolution, Relu and MaxPooling layers. The second layer group contains Convolution, Relu and MaxPooling layers. we then add a flatten and Dropout Layer to stack the output convolutions as well as cater overfitting. Last but not least we add a Relu activation and softmax classifier.
 
 Data Section - Include written descriptions of data and follow with relevant spreadsheets.
 Methods Section - Explain how you gathered and analyzed data.
