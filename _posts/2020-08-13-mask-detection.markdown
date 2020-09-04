@@ -26,13 +26,17 @@ The Face Mask Detection System can be used at office premises to detect if emplo
 ## ---
 In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps :
 
-![Alt](C:\Users\post\Desktop\papier\Portfolio\myportfolio.github.io\assets\images\facemaskdetection “image title”)
+<img class="gatsby-resp-image-image" src="C:\Users\post\Desktop\papier\Portfolio\myportfolio.github.io\assets\images\facemaskdetection" alt="hello!" title="project phases">
+
 1- Training: consists in loading our face mask detection dataset from disk, training a model (using Keras/TensorFlow) on this dataset, and then serializing the face mask detector to disk.
 <br>
 2- Deployment: Once the face mask detector is trained, we can then move on to loading the mask detector, performing face detection, and then classifying each face as with_mask or without_mask
 
 ## Data Set and Processing
-![Alt](C:\Users\post\Desktop\papier\Portfolio\myportfolio.github.io\assets\images\facemaskdetection\withandwhithoutmask.jpeg “image title”)
+
+<img class="gatsby-resp-image-image" src="C:\Users\post\Desktop\papier\Portfolio\myportfolio.github.
+io\assets\images\facemaskdetection\withandwhithoutmask.jpeg" alt="hello!" title="Dataset">
+
 Data Section - Include written descriptions of data and follow with relevant spreadsheets.
 Methods Section - Explain how you gathered and analyzed data.
 Analysis Section - Explain what you analyzed. Include any charts here.
