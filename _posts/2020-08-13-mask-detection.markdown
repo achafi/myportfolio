@@ -15,16 +15,24 @@ The coronavirus pandemic has pushed people across the world into difficult times
 
 As several countries on the continent saw an uptick in reported cases of COVID-19, they moved to make mask-wearing mandatory in public and private spaces. Face mask detecting alert systems help authorities to control people entering public and private places that rnow required to wear face coverings.
 ### Example of application
-#### Airports
+##### Airports
 The Face Mask Detection System can be used at airports to detect travelers without masks. Face data of travelers can be captured in the system at the entrance. If a traveler is found to be without a face mask, their picture is sent to the airport authorities so that they could take quick action. If the person’s face is already stored, like the face of an Airport worker, it can send the alert to the worker’s phone directly.
-#### Hospitals
+##### Hospitals
 Using Face Mask Detection System, Hospitals can monitor if their staff is wearing masks during their shift or not. If any health worker is found without a mask, they will receive a notification with a reminder to wear a mask. Also, if quarantine people who are required to wear a mask, the system can keep an eye and detect if the mask is present or not and send notification automatically or report to the authorities.
-#### Offices
+##### Offices
 The Face Mask Detection System can be used at office premises to detect if employees are maintaining safety standards at work. It monitors employees without masks and sends them a reminder to wear a mask. The reports can be downloaded or sent an email at the end of the day to capture people who are not complying with the regulations or the requirements.
 
-
-
 ## Body
+## ---
+In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps :
+
+![Alt](C:\Users\post\Desktop\papier\Portfolio\myportfolio.github.io\assets\images\facemaskdetection “image title”)
+1- Training: consists in loading our face mask detection dataset from disk, training a model (using Keras/TensorFlow) on this dataset, and then serializing the face mask detector to disk.
+<br>
+2- Deployment: Once the face mask detector is trained, we can then move on to loading the mask detector, performing face detection, and then classifying each face as with_mask or without_mask
+
+## Data Set and Processing
+![Alt](C:\Users\post\Desktop\papier\Portfolio\myportfolio.github.io\assets\images\facemaskdetection\withandwhithoutmask.jpeg “image title”)
 Data Section - Include written descriptions of data and follow with relevant spreadsheets.
 Methods Section - Explain how you gathered and analyzed data.
 Analysis Section - Explain what you analyzed. Include any charts here.
