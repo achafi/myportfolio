@@ -22,7 +22,7 @@ I am passionate about using data <br>
 END to END ML project 
 Road map
 
-# Recommendations
+## Recommendations
 Gilles GASSO - Professeur des Universités 
 
 <p style="font-size:13px"> 
