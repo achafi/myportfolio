@@ -26,10 +26,8 @@ The Face Mask Detection System can be used at office premises to detect if emplo
 ## ---
 In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps :
 
-
-![Alt](./assets/images/facemaskdetection/face_mask_detection_phases.png “image title”)
-!["dominating_sets_example2"](./assets/images/facemaskdetection/face_mask_detection_phases.png)
-*Fig. 2: The minimum dominating set of a graph*
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/face_mask_detection_phases.png" alt="">
+*Fig. 1:Phases and individual steps for building a face mask detector with computer vision and deep learning using Python, OpenCV, and TensorFlow/Keras.*
 
 1- Training: consists in loading our face mask detection dataset from disk, training a model (using Keras/TensorFlow) on this dataset, and then serializing the face mask detector to disk.
 <br>
@@ -37,7 +35,8 @@ In order to train a custom face mask detector, we need to break our project into
 
 ## Data Set and Processing
 
-<img class="gatsby-resp-image-image" src="./assets/images/facemaskdetection/withandwhithoutmask.jpeg"  title="Dataset">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/withandwhithoutmask.jpeg" alt="">
+*Fig. 2: Dataset seperated into two files : images of faces with mask and images of faces without mask*
 
 Data Section - Include written descriptions of data and follow with relevant spreadsheets.
 Methods Section - Explain how you gathered and analyzed data.
