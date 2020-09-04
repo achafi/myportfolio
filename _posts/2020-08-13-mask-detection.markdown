@@ -109,6 +109,7 @@ We use the Live Webcam Video stream to Detect the Face, then we extract the regi
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/cascade_classifier.PNG" alt="">
 *Fig. 5: Cascad classifier*
 <br>
+
 ```python
 # Classifier to detect face
 face_det_classifier=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
