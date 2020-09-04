@@ -26,7 +26,10 @@ The Face Mask Detection System can be used at office premises to detect if emplo
 ## ---
 In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps :
 
-<img  src="./assets/images/facemaskdetection/face_mask_detection_phases.png"  title="project phases">
+
+![Alt](./assets/images/facemaskdetection/face_mask_detection_phases.png “image title”)
+!["dominating_sets_example2"](./assets/images/facemaskdetection/face_mask_detection_phases.png)
+*Fig. 2: The minimum dominating set of a graph*
 
 1- Training: consists in loading our face mask detection dataset from disk, training a model (using Keras/TensorFlow) on this dataset, and then serializing the face mask detector to disk.
 <br>
