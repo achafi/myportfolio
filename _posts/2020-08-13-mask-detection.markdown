@@ -9,6 +9,7 @@ mathjax : true
 ---
 # Face Mask detection alert system
 *The objective of this project is to develop an alert system that detects if a person is wearing a mask or not and triggers a notification through the video management system. This is a case of deep learning convolution neural network CNN, where the model is first trained on a set of faces with and without mask, and then used to classify new data.*
+[Github : Source code](https://github.com/achafi/FaceMaskDectionAlertSystem)
 ## Introduction
 
 The coronavirus pandemic has pushed people across the world into difficult times and uncertainty. For my part I was wondering how I can play my part to fight against coronavirus. I decided to contribute and started thinking about digital solutions that I can develop from my home. I came up with this project that consists in detecting Face Mask,  using existing IP cameras and CCTV cameras combined with Computer Vision to detect people without masks and to trigger a notification.
@@ -37,9 +38,10 @@ In order to train a custom face mask detector, we need to break our project into
 
 ## Data Set and Processing
 
-Our [data](https://github.com/achafi/FaceMaskDectionAlertSystem/tree/master/Dataset) consisted of **917 images**:
+Our [Data](https://github.com/achafi/FaceMaskDectionAlertSystem/tree/master/Dataset) consisted of **917 images**:
   - with_mask  : **451 images** face images
   - without_mask : **466 images** without masks
+<br>
 The mask are artificially added to the images in order to have a dataset images where a person is wearing a mask and not.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/withandwhithoutmask.jpeg" alt="">
@@ -63,9 +65,10 @@ labels = np.array(labels)
 ```
 ## Build Convolutional neural network
 After preprocessing the images, it is time to build a Convolutional Neural Network using Sequential API of Keras.This model aims to classify whether an image is of face with mask or without mask
-
+<br>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/cnn_model.png" alt="">
-*Fig. 3: architecture of our CNN model *
+*Fig. 3: architecture of CNN model*
+<br>
 As shown above in figure 3, the first layer group contains Convolution, Relu and MaxPooling layers. The second layer group contains Convolution, Relu and MaxPooling layers. we then add a flatten and Dropout Layer to stack the output convolutions as well as cater overfitting. Last but not least we add a Relu activation and softmax classifier.
 
 ### Compile and train the model
@@ -89,9 +92,11 @@ fitted_model = model.fit(
 
 ### Model Evaluation
 Results : loss: 0.0048 - accuracy: 0.9977 - val_loss: 0.2708 - val_accuracy: 0.9456
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/loss_accuraccy_plot.png" alt="">
-*Fig. 4: Plot the Training Loss & Accuracy *
-
+<br>
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/loss.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/accuraccy.png" alt="">
+*Fig. 4: Plot the Training Loss & Accuracy*
+<br>
 We notice that the model is overfitted since the gap of training and validation loss is not minimal. Some improvements should be expected like :
 - Adding more data.
 - Data augmentation.
@@ -100,16 +105,17 @@ We notice that the model is overfitted since the gap of training and validation 
 
 ## Deployment
 We use the Live Webcam Video stream to Detect the Face, then we extract the region of interest of the Face with cascad classifier.The next step is to engage trained our pretrained CNN Face Mask Detection Model to the face identified and determine if the person is wearing Mask or Not.
+<br>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/cascade_classifier.PNG" alt="">
 *Fig. 5: Cascad classifier*
-
+<br>
 ```python
 # Classifier to detect face
 face_det_classifier=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 #  Capture Video
 vid_source=cv2.VideoCapture(0)
 ```
-The system will trigger a warning Message in terms of pop up window to highlight that access is denied if the person has not worn the face mask. In this case an email or SMS could be send to the concerned person or authorities. No Access will be given He/She wears the mask
+The system will trigger a warning Message in terms of pop up window to highlight that access is denied if the person has not worn the face mask. In this case an email or SMS could be send to the concerned person or authorities. No access will be given until the person wears the mask.
 
 ```python
 # If label = 1 then it means wearing No Mask and 0 means wearing Mask
