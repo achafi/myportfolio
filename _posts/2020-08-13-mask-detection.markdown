@@ -63,7 +63,7 @@ labels = lb.fit_transform(labels)
 labels = to_categorical(labels)
 labels = np.array(labels)
 ```
-## Build Convolutional neural network
+## Convolutional neural network architecture
 After preprocessing the images, it is time to build a Convolutional Neural Network using Sequential API of Keras.This model aims to classify whether an image is of face with mask or without mask
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/cnn_model.png" alt="">
