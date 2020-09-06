@@ -48,9 +48,9 @@ for (i, row) in df.iterrows() :
         print("Moving image", cnt)
         cnt += 1
 ```
-[ The integral data creation code](https://github.com/achafi/Covid19Detector/blob/master/DataSet%20Creator.ipynb)
+[The integral data creation code](https://github.com/achafi/Covid19Detector/blob/master/DataSet%20Creator.ipynb)
 Our Final dataset is composed of :
-- Covid positive Samples ~ **142 samples**
+- Covid positive Samples : **142 samples**
 - Normal Chest X-Rays : **142 samples**
 ## Convolutional neural network architecture
 After preprocessing the images, it is time to build a Convolutional Neural Network using Sequential API of Keras.This model aims to classify whether an image covid-19 positive or negative sample.
@@ -60,8 +60,17 @@ After preprocessing the images, it is time to build a Convolutional Neural Netwo
 
 As shown above in figure 1, the first layer group contains Convolution, Relu and MaxPooling layers. The second layer group contains Convolution, Relu and MaxPooling layers. we then add a flatten and Relu activation layer to stack the output convolutions as well as cater overfitting. Last but not least we add a Sigmoid classifier.
 
+....
 
+## Technology and tools used for this project covers :
 
+- Python
+- Numpy and Pandas for data prerocessing
+- Matplotlib for data visualization
+- Keras sequential model for CNN building
+- Jupyter notebook, visual studio code as IDE
+- Python flask for http server
+- HTML/CSS/Javascript for UI
 
 {% if page.mathjax %}
 <script type="text/javascript" async
