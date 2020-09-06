@@ -73,7 +73,8 @@ min         267.829813 <br>
 50%        5294.117647 <br>
 75%        6916.666667 <br>
 max      176470.588235 <br>
-Name: price_per_sqft, dtype: float64<br>
+Name: price_per_sqft, dtype: float64
+<br>
 Here we find that min price per sqft is 267 rs/sqft whereas max is 12000000, this shows a wide variation in property prices. We should remove outliers per location using mean and one standard deviation. for that i developped a function : remove_pps_outliers then applied to the dataframe.
 ```python
 def remove_pps_outliers(df):
@@ -208,16 +209,17 @@ find_best_model_using_gridsearchcv(X,y)
 Output :
 <br>
 
-| Model   |  best_score    |  best_params |
-|---------------------|:-------------:|------------------------------------:|
-| linear_regression | 0.847796| {'normalize': False}|
-| lasso | 0.726738 | {'alpha': 2, 'selection': 'cyclic'} |
-| decision_tree | 0.716064 |{'criterion': 'friedman_mse', 'splitter': 'best'} |
+| Model               |  best_score    |  best_params                                    |
+|---------------------|----------------|-------------------------------------------------|
+| linear_regression   | 0.847796       | {'normalize': False}                            |
+| lasso               | 0.726738       | {'alpha': 2, 'selection': 'cyclic'}             |
+| decision_tree       | 0.716064       |{'criterion': 'friedman_mse', 'splitter': 'best'}|
+
 <br>
 Based on above results we can say that LinearRegression gives the best score. Hence we will use that.
 We export the tested model to a pickle file and start developing Flask application.
 
-## Technology and tools used for this project covers :
+## Technology and tools used for this project covers
 
 - Python
 - Numpy and Pandas for data cleaning
