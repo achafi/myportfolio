@@ -1,10 +1,10 @@
 ---
 title : "End to end machine learning project to predict house prices"
 date : 2020-01-01
-tags : [machine learning, opencv, CNN, python]
+tags : [machine learning, Linear regression, Lasso, Decision Tree, python]
 header :
   image : "./assets/images/housepriceprediction/app.PNG"
-excerpt : "Machine learning, CNN, python"
+excerpt : "Machine learning, python"
 mathjax : true
 ---
 [Source code](https://github.com/achafi/Banglore_House_Prices)
