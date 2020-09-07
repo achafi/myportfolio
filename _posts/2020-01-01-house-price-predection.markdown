@@ -15,8 +15,9 @@ mathjax : true
 Predictive models for determining the sale price of houses in cities like Bengaluru is still remaining as more challenging and tricky task. The sale price of properties in cities like Bengaluru depends on a number of interdependent factors. Key factors that might affect the price include area of the property, location of the property and its amenities.
 In this project, I first build a model using sklearn and linear regression using banglore home prices dataset from Kaggle. Second step is to save the trained model and deployed on Flask server, so this server can use the model to respind http requests. Third component is to build an web page in html, css and javascript that allows user to enter home square ft area, bedrooms etc and it will call python flask server to retrieve the predicted price.
 During this project I covers almost all data science concepts such as data loading and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, gridsearchcv for hyperparameter tunning, k fold cross validation etc.
+# Inspiration
 
-## Data Preprocessing :
+## Exploratory Data Analysis
 The train and test data will consist of various features that describe that property in Bengaluru.
 Each row contains fixed size object of features. There are 9 features and each feature can be accessed by its name.
 <br>
@@ -128,13 +129,13 @@ def remove_bhk_outliers(df):
     return df.drop(exclude_indices,axis='index')
 ```
 Let's plot the same scatter chart again to visualize price_per_sqft for 2 BHK and 3 BHK properties.
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/housepriceprediction/rajaji_fter.png" alt="">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/housepriceprediction/hebbal_fter.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/housepriceprediction/rajaji_after.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/housepriceprediction/hebbal_after.png" alt="">
 *Fig. 2: price_per_sqft for 2 BHK and 3 BHK properties for both location "Rajaji Nagar" and "Hebbal" after removing outliers*
 The last step in data preprocessing, is to apply **One-Hot Encoding** to the location feature in order to get a binary representation for the categorical variables.
 <br>
 
-## Machine learning Algorithm and evaluation
+## Machine learning Algorithm and Evaluation
 A typical machine learning process involves training different models on the dataset and selecting the one with best performance. However, evaluating the performance of algorithm is not always a straight forward task. There are several factors that can help us determine which algorithm performance best. One such factor is the performance on cross validation set and another other factor is the choice of parameters for an algorithm.
 Here is my the first attempt to construct a predictive model for evaluating the price based on factors that affects the price.
 I first split the dataset into train and test dataset.
