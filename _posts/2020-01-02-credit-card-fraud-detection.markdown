@@ -4,7 +4,7 @@ date : 2020-01-02
 tags : [machine learning,Isolation Forest Algorithm,Local Outlier Factor,SVM,python]
 header :
   image : "./assets/images/CreditCardFraudDetection/Credit-Cards-Stocks-Icon.png"
-excerpt : "Machine learning, finance, python"
+excerpt : "Machine learning, Isolation Forest,Finance, Python"
 mathjax : true
 ---
 [Source code](https://github.com/achafi/CreditCardFraudDetection)

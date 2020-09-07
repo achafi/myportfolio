@@ -1,10 +1,10 @@
 ---
 title : "Face mask detection alert system"
 date : 2020-08-13
-tags : [machine learning, computer vision, CNN, python, keras, opencv]
+tags : [machine learning, computer vision, CNN, Python, Keras, Opencv]
 header :
   image : "./assets/images/facemaskdetection/Business-parks-and-offices.jpg"
-excerpt : "Machine learning , computer vision, Covid19"
+excerpt : "Machine learning , Computer vision, Covid19"
 mathjax : true
 ---
 # Face Mask detection alert system

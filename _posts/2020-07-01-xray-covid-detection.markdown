@@ -1,10 +1,10 @@
 ---
 title : "Covid-19 Detection from X-Ray"
 date : 2020-07-01
-tags : [machine learning, opencv, CNN, python]
+tags : [machine learning, Opencv, CNN, Python, Keras]
 header :
   image : "./assets/images/xraycoviddetecting/index.PNG"
-excerpt : "Machine learning , CNN, python"
+excerpt : "Machine learning , CNN, Python"
 mathjax : true
 ---
 [Source code](https://github.com/achafi/Covid19Detector)

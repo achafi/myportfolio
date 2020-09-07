@@ -4,7 +4,7 @@ date : 2020-01-01
 tags : [machine learning, Linear regression, Lasso, Decision Tree, python]
 header :
   image : "./assets/images/housepriceprediction/app.PNG"
-excerpt : "Machine learning, python"
+excerpt : "Machine learning, Regressions ,Python"
 mathjax : true
 ---
 [Source code](https://github.com/achafi/Banglore_House_Prices)
