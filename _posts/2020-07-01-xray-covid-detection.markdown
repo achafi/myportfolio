@@ -9,7 +9,7 @@ header:
 excerpt : "Machine learning , CNN, Python"
 mathjax : true
 ---
-:point_up: [to the video demo in my Youtube channel](https://youtu.be/YvjVpde2DN8)
+☝️ [to the video demo on my Youtube channel](https://youtu.be/YvjVpde2DN8)
 [Source code](https://github.com/achafi/Covid19Detector)
 
 # Automated detection of COVID-19 cases using deep neural networks with X-ray images

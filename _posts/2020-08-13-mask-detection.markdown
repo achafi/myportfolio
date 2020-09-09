@@ -2,14 +2,17 @@
 title : "Face mask detection alert system"
 date : 2020-08-13
 tags : [machine learning, computer vision, CNN, Python, Keras, Opencv]
-header :
-  image : "./assets/images/facemaskdetection/Business-parks-and-offices.jpg"
+video:
+    id: iSlLQlJuFaY
+    provider: youtube
 excerpt : "Machine learning , Computer vision, Covid19"
 mathjax : true
 ---
+☝️ [Video demo on my Youtube channel](iSlLQlJuFaY)
+[Source code](https://github.com/achafi/FaceMaskDectionAlertSystem)
 # Face Mask detection alert system
 *The objective of this project is to develop an alert system that detects if a person is wearing a mask or not and triggers a notification through the video management system. This is a case of deep learning convolution neural network CNN, where the model is first trained on a set of faces with and without mask, and then used to classify new data.*
-[Github : Source code](https://github.com/achafi/FaceMaskDectionAlertSystem)
+
 ## Introduction
 
 The coronavirus pandemic has pushed people across the world into difficult times and uncertainty. For my part I was wondering how I can play my part to fight against coronavirus. I decided to contribute and started thinking about digital solutions that I can develop from my home. I came up with this project that consists in detecting Face Mask,  using existing IP cameras and CCTV cameras combined with Computer Vision to detect people without masks and to trigger a notification.
