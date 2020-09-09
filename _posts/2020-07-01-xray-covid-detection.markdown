@@ -2,11 +2,14 @@
 title : "Covid-19 Detection from X-Ray"
 date : 2020-07-01
 tags : [machine learning, Opencv, CNN, Python, Keras]
-header :
-  image : "./assets/images/xraycoviddetecting/index.PNG"
+header:
+  video:
+    id: YvjVpde2DN8
+    provider: youtube
 excerpt : "Machine learning , CNN, Python"
 mathjax : true
 ---
+
 [Source code](https://github.com/achafi/Covid19Detector)
 
 # Automated detection of COVID-19 cases using deep neural networks with X-ray images
@@ -58,9 +61,11 @@ After preprocessing the images, it is time to build a Convolutional Neural Netwo
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/xraycoviddetecting/covid19-xray-detection-architecture.png" alt="">
 *Fig. 1: CNN model architecture*
 
-As shown above in figure 1, the first layer group contains Convolution, Relu and MaxPooling layers. The second layer group contains Convolution, Relu and MaxPooling layers. we then add a flatten and Relu activation layer to stack the output convolutions as well as cater overfitting. Last but not least we add a Sigmoid classifier.
+As shown above in figure 1, the first layer group contains Convolution, Relu and MaxPooling layers. The second layer group contains Convolution, Relu and MaxPooling layers. I then add a flatten and Relu activation layer to stack the output convolutions as well as cater overfitting. Last but not least I add a Sigmoid classifier.
 
-....
+
+<br>
+To be continued ....
 
 ## Technology and tools used for this project covers :
 

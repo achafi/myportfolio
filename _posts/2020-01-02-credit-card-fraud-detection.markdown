@@ -16,7 +16,7 @@ mathjax : true
 In the payments industry, fraud is an illegal usage of credit card details without the real cardholder’s knowledge. A stolen credit card/card number is usually the cause of a fraudulent charge. Once a cardholder sees a payment transaction he did not make on his credit card statement, he/she has the right to dispute the charge by contacting his/her bank. The bank or credit card company conducts an investigation and returns the money to the cardholder. It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
 
 ## Dataset :
-[Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+[Kaggle Dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 <br>
 The dataset has been collected and analysed during a research collaboration of Worldline and [the Machine Learning Group](http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection. More details on current and past projects on [related topics](https://www.researchgate.net/project/Fraud-detection-5) and the page of the DefeatFraud project.
 <br>
@@ -36,11 +36,12 @@ This dataset presents transactions that occurred in two days, where we have 492 
 *Fig. 2: Amount per transaction by class*
 
 - Do fraudulent transactions occur more often during certain time frame ? Let us find out with a visual representation.
+
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/CreditCardFraudDetection/time-amount.png" alt="">
 *Fig. 3: Time of transaction vs Amount by class*
 
 ### Machine learning Algorithm
-Now it is time to start building the machine learning model. The types of algorithms we are going to use to try to do anomaly detection on this dataset are as follows :
+Now it is time to start building the machine learning model. The types of algorithms I ame going to use to try to do anomaly detection on this dataset are as follows :
 -  Isolation Forest algorithm
 -  Local Outlier Factor(LOF) Algorithm
 -  Support Vector
@@ -66,6 +67,7 @@ One of the newest techniques to detect anomalies is called Isolation Forests. Th
 - Number of errors : 73
 - Accuracy Score : 0.9974368877497279
 - Classification Report :
+
 |Class       | Precision  |  Recall    |  f1-score    |   support |
 |------------|------------|------------|--------------|-----------|
 |0           | 1.00       | 1.00       |  1.00        |   28432   |
@@ -93,6 +95,7 @@ In practice, such informations are generally not available, and taking n_neighbo
 - Number of errors: 8516
 - Accuracy Score : 0.7009936448860644
 - Classification Report :
+
 
 |Class       | Precision  |  Recall    |  f1-score    |   support |
 |------------|------------|------------|--------------|-----------|
