@@ -43,8 +43,8 @@ In order to train a custom face mask detector, we need to break our project into
 ## Data Set and Processing
 
 Our [Data](https://github.com/achafi/FaceMaskDectionAlertSystem/tree/master/Dataset) consisted of **917 images**:
-  - with_mask  : **451 images** face images
-  - without_mask : **466 images** without masks
+  - with_mask  : **690 images** face images
+  - without_mask : **686 images** without masks
 <br>
 The mask are artificially added to the images in order to have a dataset images where a person is wearing a mask and not.
 
