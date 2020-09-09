@@ -9,7 +9,7 @@ header:
 excerpt : "Machine learning , CNN, Python"
 mathjax : true
 ---
-
+:point_up: [to the video demo in my Youtube channel](https://youtu.be/YvjVpde2DN8)
 [Source code](https://github.com/achafi/Covid19Detector)
 
 # Automated detection of COVID-19 cases using deep neural networks with X-ray images
@@ -67,7 +67,7 @@ As shown above in figure 1, the first layer group contains Convolution, Relu and
 <br>
 To be continued ....
 
-## Technology and tools used for this project covers :
+## Technology and tools used for this project covers
 
 - Python
 - Numpy and Pandas for data prerocessing
