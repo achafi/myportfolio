@@ -95,7 +95,7 @@ fitted_model = model.fit(
 ```
 
 ### Model Evaluation
-Results : loss: 0.0048 - accuracy: 0.9977 - val_loss: 0.2708 - val_accuracy: 0.9456
+Results : loss: 0.2140 - accuracy: 0.9571
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/loss.png" alt="">
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/accuraccy.png" alt="">
