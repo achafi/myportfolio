@@ -18,9 +18,10 @@ I am passionate about using data <br>
 &#129302; **to help machine learn** and <br>
 &#x1f30e; **to make world a better place** <br>
 
+Getting insights out of data is something that I really like. Data visualization and machine learning are some techniques that I am using to achieve this. My goal is to improve results, make the right decisions and save costs.
+I am a big open source believer since I think with sharing solutions we can achieve a lot more as a community. Therefore I prefer to use Python for my daily work.
 
-END to END ML project 
-Road map
+On my website you can find some examples of my projects, most of them are links to my youtube channel for video demo and my github to access my code.
 
 ## Recommendations
 <p>
@@ -38,3 +39,4 @@ C’est pourquoi nous recommandons les services d’Assia. Nous sommes convaincu
 Tristan NEDELLEC - Responsable Applicatifs à la Matmut - France
 </p>
 
+Have fun in browsing through the content and thank you for visiting!
