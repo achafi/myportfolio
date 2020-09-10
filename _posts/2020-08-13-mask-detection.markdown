@@ -41,8 +41,8 @@ In order to train a custom face mask detector, we need to break our project into
 2- Deployment: Once the face mask detector is trained, we can then move on to loading the mask detector, performing face detection, and then classifying each face as with_mask or without_mask
 
 ## Data Set and Processing
+The dataset consisted of 1376 images, 690 face images with masks and 686 without masks. The original dataset is prepared by [Prajna Bhandary](https://www.linkedin.com/in/prajna-bhandary-0b03a416a/) and available at [Github](https://github.com/prajnasb/observations/tree/master/experiements/data)
 
-Our [Data](https://github.com/achafi/FaceMaskDectionAlertSystem/tree/master/Dataset) consisted of **917 images**:
   - with_mask  : **690 images** face images
   - without_mask : **686 images** without masks
 <br>
@@ -51,7 +51,7 @@ The mask are artificially added to the images in order to have a dataset images 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/withandwhithoutmask.jpeg" alt="">
 *Fig. 2: Dataset seperated into two files : images of faces with mask and images of faces without mask*
 
-We first convert images to Grayscale and separate out labels and images using the OpenCV packages for Python: cv2
+We first convert images to Grayscale, resize it to 100*100 then and separate out labels and images using the OpenCV packages for Python: cv2
 ```python
 # Converting the image into gray scale
   grayscale_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -97,8 +97,8 @@ fitted_model = model.fit(
 ### Model Evaluation
 Results : loss: 0.2140 - accuracy: 0.9571
 <br>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/loss.png" alt="">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/accuraccy.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/loss2.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/accuraccy2.png" alt="">
 *Fig. 4: Plot the Training Loss & Accuracy*
 <br>
 We notice that the model is overfitted since the gap of training and validation loss is not minimal. Some improvements should be expected like :
