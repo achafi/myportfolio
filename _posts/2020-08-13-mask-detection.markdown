@@ -98,7 +98,7 @@ fitted_model = model.fit(
 Results : loss: 0.2140 - accuracy: 0.9571
 <br>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/loss2.png" alt="">
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/accuraccy2.png" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/facemaskdetection/accuracy2.png" alt="">
 *Fig. 4: Plot the Training Loss & Accuracy*
 <br>
 We notice that the model is overfitted since the gap of training and validation loss is not minimal. Some improvements should be expected like :
