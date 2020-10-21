@@ -4,12 +4,12 @@ date : 2020-07-01
 tags : [machine learning, Opencv, CNN, Python, Keras]
 header:
   video:
-    id: YvjVpde2DN8
+    id: No5DiWv0fbY
     provider: youtube
 excerpt : "Machine learning , CNN, Python"
 mathjax : true
 ---
-☝️ [to the video demo on my Youtube channel](https://youtu.be/YvjVpde2DN8)
+☝️ [to the video demo on my Youtube channel](https://youtu.be/No5DiWv0fbY)
 [Source code](https://github.com/achafi/Covid19Detector)
 
 # Automated detection of COVID-19 cases using deep neural networks with X-ray images
