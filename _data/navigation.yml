@@ -5,7 +5,7 @@ main:
     url:  /about/
   - title : "Machine Learning"
     url : /machine-learning/
-  - title : "year-archive"
+  - title : "Projects"
     url : /year-archive/
   # - title: "Sample Posts"
   #   url: /year-archive/
