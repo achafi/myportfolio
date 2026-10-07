@@ -4,10 +4,6 @@ permalink : /about/
 header : 
   image : "./assets/images/view.jpeg"
 ---
-window.$docsify = {
-  executeScript: true,
-};
-
 # My portfolio. 
 *A selection of cool stuff I've worked on. All the projects are completed by me for academic, self learning, and hobby purposes.*
 
