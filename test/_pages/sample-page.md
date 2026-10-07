@@ -1,15 +1,11 @@
 ---
-title: "Sample Page"
-permalink: /sample-page/
-date: 2016-02-24T03:02:20+00:00
+title: "About"
+permalink: /about/
+date: 2025-01-01T00:00:00+00:00
 ---
 
-This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+Hi, I'm **Achraf Chafi**, a Data Science Engineer based between Morocco and Belgium.
 
-> Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi'a coladas. (And gettin' caught in the rain.)
+I love turning complex data into actionable insights and building machine learning solutions that solve real problems. My focus is on data engineering, analytics, and applied ML.
 
-...or something like this:
-
-> The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.
-
-You should probably delete this page and create new pages for your content. Have fun!
+Feel free to explore my [portfolio](/test/portfolio/) and get in touch!

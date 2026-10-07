@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-Sample document listing for the collection `_portfolio`.
+A selection of my data science and analytics projects. Each project showcases real-world problem solving using data engineering, analytics, and machine learning.
