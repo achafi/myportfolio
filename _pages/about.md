@@ -11,7 +11,7 @@ window.$docsify = {
 # My portfolio. 
 *A selection of cool stuff I've worked on. All the projects are completed by me for academic, self learning, and hobby purposes.*
 
-Hi, there! I’m Assia. &#128187; **Software Engineer with expertise in Data science technologies**.
+Hi, there! I’m Assia. &#128187; **Data Science Engineer**.
 
 **Master of Information technology**, double graduated from &#127891; <span style="color:red">The Institut National des Sciences Appliquées (INSA) de Rouen-France </span>, and <span style="color:blue"> Ecole Nationale Supérieure des Mines (ENSMR) de Rabat-Morocco.<span>
 
