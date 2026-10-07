@@ -1,0 +1,100 @@
+/* ==========================================================================
+   Modern polish layered on top of the Aqua skin
+   ========================================================================== */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Sticky masthead with a soft shadow */
+.masthead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: $background-color;
+  box-shadow: 0 1px 12px rgba($gray, 0.1);
+
+  .greedy-nav button {
+    transition: background-color 0.2s ease;
+    border-radius: 8px;
+  }
+}
+
+/* Pill style navigation links */
+.masthead__menu-item a {
+  padding: 0.4em 0.8em;
+  border-radius: 999px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    background-color: rgba($gray, 0.1);
+  }
+}
+
+.site-title {
+  letter-spacing: -0.02em;
+}
+
+.site-subtitle {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $gray;
+}
+
+/* Card style post list */
+.entries-list .list__item + .list__item {
+  margin-top: 1.25rem;
+}
+
+.entries-list .archive__item {
+  padding: 1.25rem 1.5rem;
+  background-color: #fff;
+  border: 1px solid rgba($gray, 0.08);
+  border-radius: 14px;
+  box-shadow: 0 1px 3px rgba($gray, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba($gray, 0.14);
+  }
+}
+
+.archive__item-title a {
+  color: $text-color;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $gray;
+  }
+}
+
+.archive__item-excerpt {
+  color: mix($text-color, $background-color, 70%);
+}
+
+.archive__item-teaser {
+  border-radius: 12px;
+}
+
+.page__content img {
+  border-radius: 12px;
+  box-shadow: $box-shadow;
+}
+
+/* Pill buttons */
+.btn {
+  border-radius: 999px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba($gray, 0.2);
+  }
+}
+
+.page__footer {
+  background-color: rgba($gray, 0.03);
+}
