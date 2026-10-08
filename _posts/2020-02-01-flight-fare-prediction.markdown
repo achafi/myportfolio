@@ -1,6 +1,7 @@
 ---
 title : "Flight Fare Prediction"
 date : 2020-02-01
+categories : [machine-learning]
 tags : [machine learning, Python]
 header:
   video:

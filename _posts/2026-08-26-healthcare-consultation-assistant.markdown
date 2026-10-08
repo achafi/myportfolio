@@ -1,6 +1,7 @@
 ---
 title : "Healthcare consultation assistant"
 date : 2026-08-26
+categories : [agentic-ai]
 tags : [LLM, FastAPI, Next.js, authentication, GenAI]
 header :
   image : ""

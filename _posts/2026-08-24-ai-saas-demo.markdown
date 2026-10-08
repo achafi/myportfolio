@@ -1,6 +1,7 @@
 ---
 title : "IdeaGen Pro — AI SaaS with subscription gating"
 date : 2026-08-24
+categories : [agentic-ai]
 tags : [SaaS, Next.js, TypeScript, FastAPI, GenAI]
 header :
   image : ""

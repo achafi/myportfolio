@@ -1,6 +1,7 @@
 ---
 title : "Flight Fare Prediction"
 date : 2020-01-15
+categories : [machine-learning]
 tags : [machine learning, Python, Streamlit]
 header:
   video:

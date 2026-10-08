@@ -1,6 +1,7 @@
 ---
 title : "Auto MPG Predection"
 date : 2020-07-01
+categories : [machine-learning]
 tags : [machine learning, Python]
 header:
   video:

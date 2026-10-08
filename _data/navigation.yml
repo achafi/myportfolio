@@ -5,6 +5,10 @@ main:
     url:  /about/
   - title : "Machine Learning"
     url : /machine-learning/
+  - title : "Agentic AI"
+    url : /agentic-ai/
+  - title : "Data & Analytics"
+    url : /data-analytics/
   - title : "Projects"
     url : /year-archive/
   # - title: "Sample Posts"

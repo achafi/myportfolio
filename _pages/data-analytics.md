@@ -1,8 +1,8 @@
 ---
-title : "Machine Learning"
-permalink : /machine-learning/
+title : "Data & Analytics"
+permalink : /data-analytics/
 layout : category
-taxonomy : machine-learning
+taxonomy : data-analytics
 entries_layout : list
 author_profile : true
 header :

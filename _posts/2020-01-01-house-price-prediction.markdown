@@ -1,6 +1,7 @@
 ---
 title : "End to end machine learning project to predict house prices"
 date : 2020-01-01
+categories : [machine-learning]
 tags : [machine learning, Linear regression, Lasso, Decision Tree, python]
 header :
   image : "./assets/images/housepriceprediction/app.PNG"

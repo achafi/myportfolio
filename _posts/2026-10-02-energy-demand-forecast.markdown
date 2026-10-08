@@ -1,6 +1,7 @@
 ---
 title : "Industrial energy demand forecasting"
 date : 2026-10-02
+categories : [data-analytics]
 tags : [time series, forecasting, Streamlit, Python]
 header :
   image : ""

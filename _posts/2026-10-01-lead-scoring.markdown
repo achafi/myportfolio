@@ -1,6 +1,7 @@
 ---
 title : "Lead scoring with XGBoost and SHAP"
 date : 2026-10-01
+categories : [machine-learning]
 tags : [machine learning, XGBoost, SHAP, Python, scikit-learn]
 header :
   image : ""

@@ -1,6 +1,7 @@
 ---
 title : "Customer Lifetime Value calculation"
 date : 2020-04-01
+categories : [machine-learning]
 tags : [machine learning, python]
 header :
   image : "./assets/images/CLV/CLTV.jpg"

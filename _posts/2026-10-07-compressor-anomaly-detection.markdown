@@ -1,6 +1,7 @@
 ---
 title : "Compressor anomaly detection on industrial telemetry"
 date : 2026-10-07
+categories : [machine-learning]
 tags : [anomaly detection, LightGBM, predictive maintenance, Python, Streamlit]
 header :
   image : ""

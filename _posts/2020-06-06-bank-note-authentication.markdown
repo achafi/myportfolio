@@ -1,6 +1,7 @@
 ---
 title : "Bank Note Authentication"
 date : 2020-06-06
+categories : [machine-learning]
 tags : [machine learning,python]
 header :
   image : ""

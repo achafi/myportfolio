@@ -1,6 +1,7 @@
 ---
 title : "Movie Recommendation System"
 date : 2020-10-01
+categories : [machine-learning]
 tags : [machine learning, Python, NLP, Sentiment Analysis]
 header:
   video:

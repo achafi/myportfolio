@@ -1,6 +1,7 @@
 ---
 title : "Covid-19 Detection from X-Ray"
 date : 2020-07-01
+categories : [machine-learning]
 tags : [machine learning, Opencv, CNN, Python, Keras]
 header:
   video:

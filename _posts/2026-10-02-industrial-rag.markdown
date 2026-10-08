@@ -1,6 +1,7 @@
 ---
 title : "Industrial engineering knowledge assistant (P&ID OCR and RAG)"
 date : 2026-10-02
+categories : [agentic-ai]
 tags : [RAG, OCR, GenAI, Streamlit, Python]
 header :
   image : ""

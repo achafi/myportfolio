@@ -1,6 +1,7 @@
 ---
 title : "Credit Card Fraud Detection"
 date : 2020-01-02
+categories : [machine-learning]
 tags : [machine learning,Isolation Forest Algorithm,Local Outlier Factor,SVM,python]
 header :
   image : "./assets/images/CreditCardFraudDetection/Credit-Cards-Stocks-Icon.png"

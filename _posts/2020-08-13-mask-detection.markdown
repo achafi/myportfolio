@@ -1,6 +1,7 @@
 ---
 title : "Face mask detection alert system"
 date : 2020-08-13
+categories : [machine-learning]
 tags : [machine learning, computer vision, CNN, Python, Keras, Opencv]
 header:
   video:

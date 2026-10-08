@@ -1,8 +1,8 @@
 ---
-title : "Machine Learning"
-permalink : /machine-learning/
+title : "Agentic AI"
+permalink : /agentic-ai/
 layout : category
-taxonomy : machine-learning
+taxonomy : agentic-ai
 entries_layout : list
 author_profile : true
 header :

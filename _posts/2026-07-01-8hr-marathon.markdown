@@ -1,6 +1,7 @@
 ---
 title : "Enterprise Agentic RAG pipeline"
 date : 2026-07-01
+categories : [agentic-ai]
 tags : [GenAI, RAG, LangGraph, Python, FastAPI]
 header :
   image : ""

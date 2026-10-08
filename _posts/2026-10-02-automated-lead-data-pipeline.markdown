@@ -1,6 +1,7 @@
 ---
 title : "Automated lead data pipeline (map-based business collector)"
 date : 2026-10-02
+categories : [data-analytics]
 tags : [data engineering, geospatial, Streamlit, Python]
 header :
   image : ""
